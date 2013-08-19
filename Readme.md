@@ -10,8 +10,14 @@
 ## API
 
 ### onEscape(fn)
+  Bind a handler `fn(event)` to be called when the `ESC` key is pressed.
 
-  Will call `fn(event)` when the `ESC` key is pressed.
+### .unbind(fn)
+  Unbinds a handler `fn`.
+
+### .bind(fn)
+  For symmetry.
+  
 
 ## License
 
