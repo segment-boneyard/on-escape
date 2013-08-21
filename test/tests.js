@@ -8,14 +8,14 @@ it('should add a handler', function (done) {
   escape(function (e) {
     done();
   });
-  trigger('keydown', { key: 'esc' });
+  trigger('keydown', { key: 'escape' });
 });
 
 it('should remove a handler', function () {
   var handler = function () { assert(false); };
   escape(handler);
   escape.unbind(handler);
-  trigger('keydown', { key: 'esc' });
+  trigger('keydown', { key: 'escape' });
 });
 
 });
