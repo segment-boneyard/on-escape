@@ -43,7 +43,7 @@ exports.bind = onEscape;
 
 exports.unbind = function (fn) {
   var index = indexOf(fns, fn);
-  if (index) fns.splice(index, 1);
+  if (index !== -1) fns.splice(index, 1);
 };
 
 
