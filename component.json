@@ -2,7 +2,7 @@
   "name": "on-escape",
   "repo": "segmentio/on-escape",
   "description": "Attach an escape key handler.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": ["esc", "escape", "key", "bind", "unbind", "handler"],
   "dependencies": {
     "component/event": "*",
